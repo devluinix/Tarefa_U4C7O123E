@@ -57,7 +57,7 @@ target_include_directories(U4C7O123E PRIVATE
 target_link_libraries(U4C7O123E 
         hardware_timer
         hardware_clocks
-        
+        hardware_pwm
         )
 
 pico_add_extra_outputs(U4C7O123E)
